@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="falihul.com">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".SkorActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="landscape" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KuisTebakActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MacamBendaActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BangunDatarActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PanduanKuisActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PanduanMateri2Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PanduanMateriActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PanduanBelajarActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BiodataActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".KuisActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BelajarActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"/>
+    </application>
+
+</manifest>

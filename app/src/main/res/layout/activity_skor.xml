@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".SkorActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/menu_skor" />
+
+
+    <TextView
+        android:id="@+id/skor"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:text="100"
+        android:textColor="#9E0E04"
+        android:textSize="90sp"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="335dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/b_kembali" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/b_mainlagi" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="SELAMAT"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nilai Kamu:"
+        android:textColor="#8F0606"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
